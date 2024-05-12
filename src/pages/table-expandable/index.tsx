@@ -16,7 +16,7 @@ import { getHeaderCounterText, getTextFilterCounterText, renderAriaLive } from '
 import '../../styles/base.scss';
 import { FullPageHeader, TableEmptyState, TableNoMatchState } from '../commons/common-components';
 import { tableAriaLabels, createColumns, filteringProperties, TablePreferences } from './table-configs';
-import allInstances, { Instance } from '../../resources/related-instances';
+import allInstances, { Instance } from '../../../public/resources/related-instances';
 import '../../styles/base.scss';
 import { PageLayout } from './page-components';
 

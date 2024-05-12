@@ -12,7 +12,7 @@ import {
   StatusIndicator,
   TableProps,
 } from '@cloudscape-design/components';
-import { Instance } from '../../resources/related-instances';
+import { Instance } from '../../../public/resources/related-instances';
 
 export const tableAriaLabels: TableProps<{ name: string }>['ariaLabels'] = {
   selectionGroupLabel: 'group label',
