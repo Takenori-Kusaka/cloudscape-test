@@ -30,5 +30,5 @@ jobs:
     - name: Run cost retrieval script
       run: python get_azure_costs.py
       env:
-        DATE_FROM: ${{ secrets.DATE_FROM }}  # 環境変数として開始日を設定
+        DATE_FROM: 2024-04-01  # 環境変数として開始日を設定
         AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
