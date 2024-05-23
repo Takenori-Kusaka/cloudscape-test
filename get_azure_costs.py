@@ -19,7 +19,7 @@ end_date = datetime.utcnow()
 
 # Azureの認証
 credential = DefaultAzureCredential()
-client = CostManagementClient(credential, subscription_id)
+client = CostManagementClient(credential)
 
 # 費用情報を取得
 cost_data = client.query.usage(
