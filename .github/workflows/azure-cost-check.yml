@@ -1,9 +1,6 @@
 name: Azure Costs
-
 on:
-  schedule:
-    - cron: '0 0 * * *'  # 毎日0時に実行
-
+  workflow_dispatch:
 jobs:
   get-azure-costs:
     runs-on: ubuntu-latest
